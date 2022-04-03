@@ -13,6 +13,7 @@
 		9AB64AFB27F9A4F300451B0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB64AE927F9A4F000451B0F /* ContentView.swift */; };
 		9AB64AFC27F9A4F300451B0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AB64AEA27F9A4F300451B0F /* Assets.xcassets */; };
 		9AB64AFD27F9A4F300451B0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AB64AEA27F9A4F300451B0F /* Assets.xcassets */; };
+		9AB64B0927F9A71100451B0F /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB64B0827F9A71100451B0F /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9AB64AEF27F9A4F300451B0F /* SwiftUI-Hero-Animation-Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Hero-Animation-Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AB64AF527F9A4F300451B0F /* SwiftUI-Hero-Animation-Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Hero-Animation-Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AB64AF727F9A4F300451B0F /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		9AB64B0827F9A71100451B0F /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,8 @@
 		9AB64AE727F9A4F000451B0F /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				9AB64B0727F9A70400451B0F /* Model */,
+				9AB64B0627F9A6F900451B0F /* View */,
 				9AB64AE827F9A4F000451B0F /* SwiftUI_Hero_Animation_PracticeApp.swift */,
 				9AB64AE927F9A4F000451B0F /* ContentView.swift */,
 				9AB64AEA27F9A4F300451B0F /* Assets.xcassets */,
@@ -76,6 +80,21 @@
 				9AB64AF727F9A4F300451B0F /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		9AB64B0627F9A6F900451B0F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9AB64B0727F9A70400451B0F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9AB64B0827F9A71100451B0F /* Movie.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,6 +197,7 @@
 			files = (
 				9AB64AFA27F9A4F300451B0F /* ContentView.swift in Sources */,
 				9AB64AF827F9A4F300451B0F /* SwiftUI_Hero_Animation_PracticeApp.swift in Sources */,
+				9AB64B0927F9A71100451B0F /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
