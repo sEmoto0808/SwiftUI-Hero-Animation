@@ -60,6 +60,10 @@ struct HomePage: View {
                 startPoint: .top,
                 endPoint: .bottom
             )
+
+            // Blurred Overlay
+            Rectangle()
+                .fill(.ultraThinMaterial)
         }
         .ignoresSafeArea()
     }
@@ -68,5 +72,6 @@ struct HomePage: View {
 struct HomePage_Previews: PreviewProvider {
     static var previews: some View {
         HomePage()
+            .preferredColorScheme(.dark)
     }
 }
