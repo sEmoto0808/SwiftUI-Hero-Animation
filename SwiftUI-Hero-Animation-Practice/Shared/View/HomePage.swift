@@ -21,6 +21,13 @@ struct HomePage: View {
 
             // BG
             BGView()
+
+            // MARK: Main View Content
+            VStack {
+
+                // Check out the Snap Carousel Video
+                // https://youtu.be/GvKUmUA86WM
+            }
         }
     }
 
