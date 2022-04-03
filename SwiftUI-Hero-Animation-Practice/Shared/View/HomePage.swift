@@ -12,6 +12,9 @@ struct HomePage: View {
     // MARK: Animated View Properties
     @State var currentIndex: Int = 0
 
+    // Environment Values
+    @Environment(\.colorScheme) var scheme
+
     var body: some View {
 
         ZStack {
@@ -41,7 +44,24 @@ struct HomePage: View {
                         .tag(index)
                 }
             }
+
+            let color: Color = (scheme == .dark ? .black : .white)
+            // Custom Gradient
+            LinearGradient(
+                colors: [
+                    .black,
+                    .clear,
+                    color.opacity(0.15),
+                    color.opacity(0.5),
+                    color.opacity(0.8),
+                    color,
+                    color
+                ],
+                startPoint: .top,
+                endPoint: .bottom
+            )
         }
+        .ignoresSafeArea()
     }
 }
 
