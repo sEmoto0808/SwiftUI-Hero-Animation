@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A7C10FE27FB2C3300FC8593 /* SnapCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7C10FD27FB2C3300FC8593 /* SnapCarousel.swift */; };
 		9AB64AF827F9A4F300451B0F /* SwiftUI_Hero_Animation_PracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB64AE827F9A4F000451B0F /* SwiftUI_Hero_Animation_PracticeApp.swift */; };
 		9AB64AF927F9A4F300451B0F /* SwiftUI_Hero_Animation_PracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB64AE827F9A4F000451B0F /* SwiftUI_Hero_Animation_PracticeApp.swift */; };
 		9AB64AFA27F9A4F300451B0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB64AE927F9A4F000451B0F /* ContentView.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A7C10FD27FB2C3300FC8593 /* SnapCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapCarousel.swift; sourceTree = "<group>"; };
 		9AB64AE827F9A4F000451B0F /* SwiftUI_Hero_Animation_PracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Hero_Animation_PracticeApp.swift; sourceTree = "<group>"; };
 		9AB64AE927F9A4F000451B0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9AB64AEA27F9A4F300451B0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				9AB64B0A27F9A8D900451B0F /* HomePage.swift */,
+				9A7C10FD27FB2C3300FC8593 /* SnapCarousel.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 				9AB64AF827F9A4F300451B0F /* SwiftUI_Hero_Animation_PracticeApp.swift in Sources */,
 				9AB64B0927F9A71100451B0F /* Movie.swift in Sources */,
 				9AB64B0B27F9A8D900451B0F /* HomePage.swift in Sources */,
+				9A7C10FE27FB2C3300FC8593 /* SnapCarousel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

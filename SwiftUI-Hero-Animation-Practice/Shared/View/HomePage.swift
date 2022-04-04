@@ -26,7 +26,7 @@ struct HomePage: View {
             VStack {
 
                 // Check out the Snap Carousel Video
-                // https://youtu.be/GvKUmUA86WM
+                // https://youtu.be/4Gw5lDXJ04g?t=110
             }
         }
     }
