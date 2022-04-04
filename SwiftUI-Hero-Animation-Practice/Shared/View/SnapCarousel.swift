@@ -35,7 +35,12 @@ struct SnapCarousel<Content: View, T: Identifiable>: View {
 
     var body: some View {
 
-        GeometryReader { proxy in }
+        GeometryReader { proxy in
+
+            ForEach(list) { item in
+                content(item)
+            }
+        }
     }
 }
 

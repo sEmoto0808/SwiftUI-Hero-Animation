@@ -27,6 +27,19 @@ struct HomePage: View {
 
                 // Check out the Snap Carousel Video
                 // https://youtu.be/4Gw5lDXJ04g?t=110
+                SnapCarousel(spacing: 0, trailingSpace: 0, index: $currentIndex, items: movies) { movie in
+
+                    GeometryReader { proxy in
+
+                        let size = proxy.size
+
+                        Image(movie.artwork)
+                            .resizable()
+                            .aspectRatio(contentMode: .fill)
+                            .frame(width: size.width)
+                            .cornerRadius(12)
+                    }
+                }
             }
         }
     }
